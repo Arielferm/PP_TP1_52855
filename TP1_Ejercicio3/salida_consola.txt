@@ -64,11 +64,11 @@ Actividades:
 
 ¿Desea cargar otro evento? (s/n): n
 
-=== f) RECORRIDO POLIMÓRFICO DE ACTIVIDADES ===
+=== RECORRIDO POLIMÓRFICO DE ACTIVIDADES ===
 (el mismo bucle llama a mostrarIdentificacion() sin importar si es Charla o Taller)
 
    [Charla] Charla de Ciberseguridad (id=1)
    [Taller] Introducción a Java (id=2)
 
-=== g) TOTAL DE EVENTOS CREADOS ===
+=== TOTAL DE EVENTOS CREADOS ===
 TOTAL DE EVENTOS CREADOS: 1
