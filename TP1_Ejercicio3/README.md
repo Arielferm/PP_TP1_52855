@@ -64,6 +64,6 @@ java -cp out App
   lista de actividades llamando a `mostrarIdentificacion()` de forma **polimórfica**.
 - **Ejercicio 4:** mismo programa que el Ejercicio 3, ejecutado con un escenario puntual
   (3 estudiantes, 1 evento, 1 sala, 1 Charla + 1 Taller, 2 inscriptos en cada una) para
-  poder dibujar el **mapa de memoria** de esa ejecución (`mapa_memoria.png`).
+  poder dibujar el **mapa de memoria** de esa ejecución (`TP1_Ejercicio4_mapa_memoria`).
 
 
