@@ -1,0 +1,74 @@
+=== REGISTRO DE ESTUDIANTES ===
+Ingrese legajo del estudiante: 50111
+Ingrese nombre y apellido del estudiante: Martina Gómez
+¿Desea cargar otro estudiante? (s/n): s
+Ingrese legajo del estudiante: 50222
+Ingrese nombre y apellido del estudiante: Lautaro Fernández
+¿Desea cargar otro estudiante? (s/n): s
+Ingrese legajo del estudiante: 50333
+Ingrese nombre y apellido del estudiante: Julieta Rodríguez
+¿Desea cargar otro estudiante? (s/n): n
+
+=== REGISTRO DE EVENTOS ===
+
+Ingrese el título del evento: Semana de Paradigmas de Programación
+Ingrese el costo base: 3000
+¿El evento tiene costo para los participantes? (s/n): s
+Inicializador estático: se cargó la clase EventoUniversitario.
+Ingrese el nombre de la sala donde se realizará el evento: Aula Magna
+-- Actividades del evento "Semana de Paradigmas de Programación" --
+Ingrese el título de la actividad: Charla de Ciberseguridad
+Ingrese el cupo máximo de estudiantes admitidos: 30
+¿Qué tipo de actividad es? (Charla/Taller): Charla
+Inicializador estático: se cargó la clase Actividad.
+Ingrese el nombre del disertante: Ing. Carla Suárez
+¿Desea cargar otra actividad para este evento? (s/n): s
+Ingrese el título de la actividad: Introducción a Java
+Ingrese el cupo máximo de estudiantes admitidos: 20
+¿Qué tipo de actividad es? (Charla/Taller): Taller
+¿El taller requiere notebook? (s/n): s
+¿Desea cargar otra actividad para este evento? (s/n): n
+-- Inscripciones para el evento "Semana de Paradigmas de Programación" --
+Ingrese legajo del estudiante a inscribir: 50111
+Ingrese id de la actividad (según el orden en que la cargó, empezando en 1): 1
+¿Desea generar otra inscripción? (s/n): s
+Ingrese legajo del estudiante a inscribir: 50222
+Ingrese id de la actividad (según el orden en que la cargó, empezando en 1): 1
+¿Desea generar otra inscripción? (s/n): s
+Ingrese legajo del estudiante a inscribir: 50222
+Ingrese id de la actividad (según el orden en que la cargó, empezando en 1): 2
+¿Desea generar otra inscripción? (s/n): s
+Ingrese legajo del estudiante a inscribir: 50333
+Ingrese id de la actividad (según el orden en que la cargó, empezando en 1): 2
+¿Desea generar otra inscripción? (s/n): n
+
+-- Resumen del evento cargado --
+=====================================================
+Evento id      : EVT-1
+Título         : Semana de Paradigmas de Programación
+¿Es gratuito?  : No
+Costo estimado : $ 9680.00
+Sala asignada  : Aula Magna
+Actividades:
+   [Charla] Charla de Ciberseguridad (id=1)
+      Cupo máximo: 30 | Costo materiales: $ 0.00
+     Inscripciones registradas:
+       - Martina Gómez (legajo 50111) | REGISTRADA | 2026-08-27
+       - Lautaro Fernández (legajo 50222) | REGISTRADA | 2026-08-27
+   [Taller] Introducción a Java (id=2)
+      Cupo máximo: 20 | Costo materiales: $ 5000.00
+     Inscripciones registradas:
+       - Lautaro Fernández (legajo 50222) | REGISTRADA | 2026-08-27
+       - Julieta Rodríguez (legajo 50333) | REGISTRADA | 2026-08-27
+=====================================================
+
+¿Desea cargar otro evento? (s/n): n
+
+=== f) RECORRIDO POLIMÓRFICO DE ACTIVIDADES ===
+(el mismo bucle llama a mostrarIdentificacion() sin importar si es Charla o Taller)
+
+   [Charla] Charla de Ciberseguridad (id=1)
+   [Taller] Introducción a Java (id=2)
+
+=== g) TOTAL DE EVENTOS CREADOS ===
+TOTAL DE EVENTOS CREADOS: 1
