@@ -3,8 +3,8 @@
 
 <p align="center">
 
-[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Maven](https://img.shields.io/badge/Maven-Build-Tool-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+![Java](https://shields.io)
+![Maven](https://shields.io)
 [![Estado](https://img.shields.io/badge/Estado-Finalizado-success?logo=checkmarx&logoColor=white)]()
 
 </p>
