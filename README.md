@@ -33,7 +33,7 @@ Actividad (abstracta)
    └── Taller   (requiereNotebook; costo materiales = 5000 o 2000)
 ```
 
-⭐ **¿Por qué cada relación es lo que es?**
+⭐ **Relaciones del modelo**
 - 🟢 **Agregación (Evento–Sala):** la sala existe independientemente del evento. Si el evento
   se cancela, la sala sigue estando disponible para otro evento.
 - 🔵 **Composición (Evento–Actividad, Actividad–Inscripcion):** son relaciones de "todo/parte"
