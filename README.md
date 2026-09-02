@@ -5,7 +5,7 @@
 
 [![Java](https://img.shields.io/badge/Java-17%2B-orange)](https://www.java.com/)
 [![Maven](https://img.shields.io/badge/Maven-Build%20Tool-C71A36)](https://maven.apache.org/)
-[![Estado](https://img.shields.io/badge/Estado-Finalizado-success?logo=checkmarx&logoColor=white)]()
+[![Estado](https://img.shields.io/badge/Estado-Finalizado-success)]()
 
 </p>
 
