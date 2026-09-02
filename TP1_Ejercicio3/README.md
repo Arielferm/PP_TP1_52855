@@ -3,7 +3,7 @@
 
 Sistema de gestión de eventos universitarios. El proyecto está resuelto de forma
 **incremental**, esta carpeta
-contiene el código completo y ejecutable de ese punto del TP, agregando sobre el anterior.
+contiene el código completo y ejecutable de ese punto del Trabajo Práctico, agregando sobre los anteriores ejercicios (Ejercicio 1 y 2).
 
 
 ## Modelo de clases (estado final, Ejercicio 3 y 4)
